@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    background-image: url('Imagens/Freelancer\ Escritor\ Portfólio\ Site\ \(1\).png');
+
+    
+}
+
+
+#cadastro{
+    
+    margin: 250px auto 0 auto;
+    width: 400px;
+    height: 150px;
+    border-radius: 5%;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;   
+    
+
+    
+}
+.campo{
+    width: 300px;
+    height: 40px;
+    border-radius: 3%;
+    margin-top: -1px;
+
+}
+.btnCadastrar{
+    background-color: #1460C4;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3%;
+    color: #fff;
+    width:150px;
+    cursor: pointer;
+    font-size: 18px;
+}
+

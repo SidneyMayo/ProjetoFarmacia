@@ -1,0 +1,301 @@
+<DOCTYPE!>
+<html>
+    <head>
+        <title>farmacia</title>
+        <meta charset ="UTF-8">
+        <meta name ="veiw-port" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href= "CSS/estilo.css">
+        <link rel ="text/javascript" href="Main.js">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.1.js" 
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+       
+        <header>
+            <div class="topo">
+                
+                <img src="Imagens/1-removebg-preview.png">
+                <input type="text" name="pesquisa" class="pesquisa" placeholder="O que você procura?"> 
+                <ul class="itensTopo">   
+                                   
+                    <li><a href="Cadastro.html">Entrar<span class="material-icons">
+                        person
+                        </span></a></li>    
+                    <li><a href="#">Meus pedidos<span class="material-icons">
+                        local_grocery_store
+                        </span></a></li>
+                   
+                   
+                </ul>
+            </div>
+            <div class="btnAbre"><span class="material-icons">
+                menu
+                </span>
+            </div>
+            <nav id="menuLateral">
+
+                <div class="titulo">
+                    Categorias <span class="material-icons btnFecha">
+                        close
+                        </span>
+                </div> 
+                    <ul>
+                        <li class="topico"><a href="#" class="medicamentos" >Medicamentos<span class="material-icons seta1">
+                            chevron_right
+                            </span></a>
+
+                                <ul class="itensMedicamentos">
+                                    <li><a href="#">Todos de A-Z</a></li>
+                                    <li><a href="#">Anti-Concepcional</a></li>
+                                    <li><a href="#">Anti-Inflamatório</a></li>
+                                    <li><a href="#">Asma</a></li>
+                                    <li><a href="#">Calmante</a></li>
+                                    <li><a href="#">Dor e febre</a></li>
+                                    <li><a href="#">Gripe e Resfriado</a></li>
+                                    <li><a href="#">Hipertesão</a></li>
+                                </ul>
+                        </li>
+
+                        <li class="topico"><a href="#" class="vitamina"> Vitaminas e Suplementos<span class="material-icons seta2">
+                            chevron_right
+                            </span></a>
+                                <ul class="itensVitaminas">
+                                    <li><a href="#">Vitamina A </a></li>
+                                    <li><a href="#">Vitamina B </a></li>
+                                    <li><a href="#">Vitamina C </a></li>
+                                    <li><a href="#">Vitamina D </a></li>
+                                    <li><a href="#">Vitamina E </a></li>
+                                    <li><a href="#">Cálcio</a></li>
+                                    <li><a href="#">Mineirais</a></li>
+                                    <li><a href="#">Omega</a></li>
+                                    <li><a href="#">Óleos</a></li>
+                                    <li><a href="#">Colágeno</a></li>
+                                </ul>
+                        </li>
+                        <li class="topico"><a href="#" class=cuidados>Cuidados Pessoais e Beleza<span class="material-icons seta3">
+                            chevron_right
+                            </span></a>
+                                <ul class="itensCuidados">
+                                    <li><a href="#">Protetor solar</a></li>
+                                    <li><a href="#">Hidratante</a></li>
+                                    <li><a href="#">Bronzeador</a></li>
+                                    <li><a href="#">Desodorante</a></li>
+                                    <li><a href="#">Shampoo</a></li>
+                                    <li><a href="#">Banhos</a></li>
+                                    <li><a href="#">Cuidados intimos</a></li>
+                                    <li><a href="#">Higiene bucal</a></li>
+                                    <li><a href="#">Maquiagem</a></li>
+                                </ul>
+                                    
+                        </li>
+                        <li class="topico"><a href="#">Manipulação</a></li>
+
+                        <li class="topico"><a href="#" class="fitness">Fitness e nutrição<span class="material-icons seta4">
+                            chevron_right
+                            </span></a>
+                                <ul class="itensFitness">
+                                    <li><a href="#">Acessórios</a></li>
+                                    <li><a href="#">Cereais e fibras</a></li>
+                                    <li><a href="#">Diet</a></li>
+                                    <li><a href="#">Emagrecedores</a></li>
+                                    <li><a href="#">Energéticos</a></li>
+                                    <li><a href="#">Suplementos</a></li>
+                                    <li><a href="#">Todos os produtos</a></li>
+
+
+                                </ul>
+                        
+                        
+                        </li>
+                        <li class="topico"><a href="#">Ofertas</a></li>
+                    </ul>
+
+            </nav>
+        </header>   
+        <div id="slider">
+            
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            
+            <div id="slides">
+                <div id="overflow">
+                    <div class="inner">
+                        <div class="slide slide_1">
+                            <div class="slide-content">
+                                 <img src="Imagens/Vintage Máquina de Escrever LinkedIn Banner.png">
+                            </div>
+                        </div>
+                        <div class="slide slide_2">
+                            <div class="slide-content">
+                                <img src="Imagens/Vintage Máquina de Escrever LinkedIn Banner2.png">
+                            </div>
+                        </div>
+                        <div class="slide slide_3">
+                            <div class="slide-content">
+                                 <img src="Imagens/Vintage Máquina de Escrever LinkedIn Banner (2).png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="controls">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                
+            </div>
+            <div id="bullets">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                
+            </div>
+        </div>    
+         
+        <section> 
+            <div id="conteudo">
+                <div class="produto"> <img src="Imagens/fraldashuggies.jpg">
+                    <p> Fralda Huggies<p>
+                    <p class="preco"> R$ 32,09 </p>
+                    <input type="number" class="campoNumero">
+                    <input type="submit" value= "comprar" name="comprar" class="btnComprar">
+                    <a href="#"></a>
+                </div> 
+                <div class="produto"> <img src="Imagens/fraldaP.jpg" class="pampers">
+                    <p> Fralda Pampers<p>
+                    <p class="preco"> R$ 18,99</p>
+                    <input type="number" class="campoNumero">
+                    <input type="submit" value= "comprar" name="comprar" class="btnComprar">
+                    <a href="#"></a>
+                </div>
+                <div class="produto"> <img src="Imagens/tintaBiocolor.jpg">
+                    <p> tinta Bio Color<p>
+                    <p class="preco"> R$ 12,02 </p>
+                    <input type="number" class="campoNumero">
+                    <input type="submit" value= "comprar" name="comprar" class="btnComprar">
+                    <a href="#"></a>
+                </div>
+                <div class="produto"> <img src="Imagens/tintaKoleston.jpg">
+                    <p> Tinta koleston<p>
+                    <p class="preco"> R$ 12,34 </p>
+                    <input type="number" class="campoNumero">
+                    <input type="submit" value= "comprar" name="comprar" class="btnComprar">
+                    <a href="#"></a>
+                </div>
+                <div class="produto"> <img src="Imagens/images.jpg">
+                    <p> Antitranspirante Natura Homem<p>
+                    <p class="preco"> </p>
+                    <input type="number" class="campoNumero">
+                    <input type="submit" value= "comprar" name="comprar" class="btnComprar">
+                    <a href="#"></a>
+                </div>
+                <div class="produto"> <img src="Imagens/rexona1.jpg">
+                    <p> Desodorante Rexona<p>
+                    <p class="preco"> </p>
+                    <input type="number" class="campoNumero">
+                    <input type="submit" value= "comprar" name="comprar" class="btnComprar">
+                    <a href="#"></a>
+                </div>
+                <div class="produto"> <img src="Imagens/niveaprotetor.jpg">
+                    <p> Protetor Solar Nivea<p>
+                    <p class="preco"> R$ 47,66 </p>
+                    <input type="number" class="campoNumero">
+                    <input type="submit" value= "comprar" name="comprar" class="btnComprar">
+                    <a href="#"></a>
+                </div>
+                <div class="produto"> <img src="Imagens/always.jpg">
+                    <p> Absorvente Always<p>
+                    <p class="preco"> R$ 10,90 </p>
+                    <input type="number" class="campoNumero">
+                    <input type="submit" value= "comprar" name="comprar" class="btnComprar">
+                    <a href="#"></a>
+                </div>
+                <div class="produto"> <img src="Imagens/oralB.jpg">
+                    <p> Creme Dental Oral <p>
+                    <p class="preco"> </p>
+                    <input type="number" class="campoNumero">
+                    <input type="submit" value= "comprar" name="comprar" class="btnComprar">
+                    <a href="#"></a>
+                </div>
+                <div class="produto"> <img src="Imagens/colgate.jpg">
+                    <p> Creme Dental Colgate<p>
+                    <p class="preco"> R$ 8,90 </p>
+                    <input type="number" class="campoNumero">
+                    <input type="submit" value= "comprar" name="comprar" class="btnComprar">
+                    <a href="#"></a>
+                </div>
+                <div class="produto"> <img src="Imagens/Listerine.jpg">
+                    <p> Listerine<p>
+                    <p class="preco"> R$ 14,79 </p>
+                    <input type="number" class="campoNumero">
+                    <input type="submit" value= "comprar" name="comprar" class="btnComprar">
+                    <a href="#"></a>
+                </div>
+                <div class="produto"> <img src="Imagens/wheyprotein.jpg">
+                    <p> Whey Protein<p>
+                    <p class="preco"> R$ 74,50 </p>
+                    <input type="number" class="campoNumero">
+                    <input type="submit" value= "comprar" name="comprar" class="btnComprar">
+                    <a href="#"></a>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+
+        <footer>
+            <div class="final">
+                <img src="Imagens/1-removebg-preview.png">
+            </div>
+            <div class="secao1">
+                <ul>
+                    <h3>Serviços</h3>
+                    <li><a href="#">Farmaceutico</a></li>
+                    <li><a href="#">Nossas Lojas</a></li>
+                    <li><a href="#">Programas dos Laboratórios</a></li>
+                    
+                    <br><br>
+                    <h3>Antendimento</h3>
+                    <li><a href="#">Central de Atendimento</a></li>
+                    <li><a href="#">Formas de Pagamento</a></li>
+                    <li><a href="#">Como Comprar no site</a></li>
+                    <li><a href="#">Prazo de entrega</a></li>
+                    <li><a href="#">Reembolso</a></li>
+                    <li><a href="#">Troca e Devolução</a></li>
+                    
+
+                </ul>
+            
+            </div>
+            <div class="secao2">
+                <ul>
+                    <h3>Minha Conta</h3>
+                    <li><a href="#">Criar novo cadastro</a></li>
+                    <li><a href="#">Alterar dados pessoais</a></li>
+                    <li><a href="#">Editar endereços</a></li>
+                    
+                    <br><br>
+
+                    <h3>Institucional</h3>
+                    <li><a href="#">Nossa Historia</a></li>
+                    <li><a href="#">Imprensa</a></li>
+                    <li><a href="#">Trabalhe Conosco</a></li>
+                    <li><a href="#">Politica de privacidade</a></li>
+                    
+                </ul>
+            </div>
+        </footer>
+
+
+
+
+       <script type="text/javascript" src="Js/Main.js"></script> 
+    </body>
+
+
+</html>
